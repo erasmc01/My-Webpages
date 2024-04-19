@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 4.72rem;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 2.15rem;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.2rem;
+
+}
+
+.tagline {
+    font-size: 1.7rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+}
+
+.trivia-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.trivia-col {
+    padding: 30px;
+}
+
+/* Circle-shaped images */
+.trivia-col img {
+    border-radius:50%;
+}
+
+/* Centers images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+
+.carousel {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+/* Splits bullet points in 2 columns */
+.multi-column {
+    column-count: 2;
+    list-style-position: inside;
+    padding-left: 190px;
+    padding-bottom: 20px;
+}
+/* Centers footer */
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
